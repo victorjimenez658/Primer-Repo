@@ -14,7 +14,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(-45deg, #ff4e50, #f9d423, #1e90ff, #9b59b6);
+        background: linear-gradient(-45deg,rgb(58, 255, 212),rgb(30, 232, 250), #1e90ff, #9b59b6);
         background-size: 400% 400%;
         animation: gradientBG 10s ease infinite;
     }
@@ -23,6 +23,7 @@
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
+        
     }
 
         /* ANIMACIONES */
@@ -112,8 +113,9 @@
     </style>
 </head>
 <body>
-
+    
     <!-- Imagen del logo fuera del contenedor del login -->
+
     <img src="bossy_logo.png" alt="Logo Bossy" class="logo">
 
     <div class="login-container">
